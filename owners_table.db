@@ -1,0 +1,12 @@
+CREATE TABLE owners (
+  id INTEGER PRIMARY KEY,
+  name TEXT
+);
+
+INSERT INTO owners (name) VALUES ('mugumogu');
+INSERT INTO owners (name) VALUES ('Sophie');
+INSERT INTO owners (name) VALUES ('Penny');
+INSERT INTO cats (name, age, breed) VALUES ('Maru', 3, 'Scottish Fold');
+INSERT INTO cats (name, age, breed) VALUES ('Hand', 1, 'Tabby');
+INSERT INTO cats (name, age, breed) VALUES ('Nona', 4, 'Tortoiseshell');
+INSERT INTO cats (name, age, breed) VALUES ('lil'' Bub', 2, 'perma-kitten');

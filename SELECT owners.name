@@ -1,0 +1,28 @@
+SELECT owners.name
+FROM owners
+INNER JOIN cat_owners
+ON owners.id = cat_owners.owner_id WHERE cat_owners.cat_id = 3;
+
+
+SELECT column(s)
+FROM table_one
+INNWE JOIN table_two
+ON table_one.column_name = table_two.column_name
+WHERE table_two.column_name = condition;
+
+
+SELECT cats.name 
+FROM cats
+INNER JOIn cat_owners
+ON cats.id = cat_owners.cat_id
+WHERE cat_owners.owner_id = 2;
+
+
+SELECT
+ cats.name AS cat_name,
+ owners.name AS owner_name
+ FROM cats
+INNER JOIN cat_owners
+  On cats.id = cat_owners.cat_id
+ INNER JOIN owners
+   ON cat_owners.owner_Id = owners.id; 

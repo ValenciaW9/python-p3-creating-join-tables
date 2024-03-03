@@ -1,0 +1,10 @@
+SELECT cat_owners.owner_id
+FROM cat_owners
+WHERE cat_id = 3;
+
+
+SELECT cat_owners.cat_id
+FROM cat_owners
+WHERE owner_id = 2;
+
+
